@@ -24,7 +24,7 @@ You can define nodes and lattice vectors for **Bloch Analysis**.
 </p>
 
 <p align="center">
-  <img src="images/supercell.png" width="350">
+  <img src="images/supercell.png" width="700">
 </p>
 
 ---
