@@ -3,6 +3,8 @@ import subprocess
 from pathlib import Path
 import BeamsPackage as bp
 
+"""2D Beams Lattice Generator Test file"""
+
 def main():
     subprocess.run('cls' if os.name == 'nt' else 'clear', shell=True)
     BASE_DIR = Path(__file__).resolve().parent
