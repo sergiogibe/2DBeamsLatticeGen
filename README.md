@@ -4,23 +4,27 @@ Beams lattice generator package using **Gmsh** capabilitites.
 Supports tessellation into full 2D lattices or supercells (1D tesselation). 
 You can define nodes and lattice vectors for **Bloch Analysis**.
 
-Summary:
+---
+
+## Summary:
+
 - Define unit cells, lattice vectors and nodes for periodic boundary conditions (PBCs).
 - Gmsh performs 1D beams meshing and tesselates into lattices.
 - You can generate full 2D periodic lattices.
 - Also supports 1D supercell strip analysis (1D periodic).
+- Every beam can be defined with a flag for later material assignment.
 
 ---
 
 ## A few images
 
 <p align="center">
-  <img src="images/unit_cell.png" width="350">
-  <img src="images/lattice.png" width="350">
+  <img src="images/singlecell.png" width="350">
+  <img src="images/lattice1010.png" width="350">
 </p>
 
 <p align="center">
-  <img src="images/supercell_strip.png" width="350">
+  <img src="images/supercell.png" width="350">
 </p>
 
 ---
@@ -44,7 +48,7 @@ This allows investigation of:
 
 ---
 
-## Example: Main script you can use to start your analysis
+## Example: ```main.py```
 
 ```python
 import os
@@ -72,11 +76,13 @@ if __name__ == "__main__":
 
 ---
 
-## Requirements
+## Lib requirements
 - Python 3.9+
 - Gmsh
 - NumPy
 - SciPy
+
+---
 
 ## Clone the repository:
 
